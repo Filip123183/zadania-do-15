@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="utf-8">
+    <title>formularz</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <a href="index.html">wróć</a><br/><br/>
+    <from method="post">
+        <div id="logo">
+            FORMULARZ ZGŁOSZENIOWY DO <br/> ADMINISTRACJI
+            <br/>
+        </div>
+        <div id="imie">
+
+            <input type="text" />
+            <br/> Imie
+
+        </div>
+        <div id="nazwisko">
+
+            <input type="text" />
+            <br/> nazwizko
+
+        </div>
+        <div style="clear:both"></div>
+        <div id="mieszkanie">
+            <h3>Gdzie Mieszkasz?</h3>
+
+            <input type="checkbox" /> USA<br/>
+            <input type="checkbox" /> Polska<br/>
+            <input type="checkbox" /> Niemcy
+
+        </div>
+        <div id="dos">
+            <h3>Czy Masz doświadczenie</h3>
+
+            <input type="radio" name="dos"> Nie
+            <input type="radio" name="dos"> Tak
+
+        </div>
+        <div style="clear:both"></div>
+        <div id="um">
+            <h3>Jak oceniasz swoje umiejętności?</h3>
+
+            <select name="um">
+                <option selected>Dobre</option>
+                <option>Słabe</option>
+            </select>
+
+        </div>
+        <div id=dl>
+            <h3>Dlaczego właśnie ciebie powinniśmy przyjąć?</h3>
+
+            <textarea name="Komentarz" cols="50" rows="10"></textarea>
+
+        </div>
+        <div style="clear:both"></div>
+        <div id="haslo">
+            <h3>Hasło do formularza</h3>
+
+            <input type="password" />
+
+        </div>
+        <div id="przy">
+
+            <input type="submit" value="Wyślij"><br/>
+
+        </div>
+        <div id="przy2">
+
+            <input type="reset" value="Wyczyść dane"><br/>
+
+        </div>
+    </from>
+
+</body>
+
+</html>
